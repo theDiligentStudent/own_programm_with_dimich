@@ -43,6 +43,9 @@
 // --
 // 6/12/23
 // Сейчас в ГитХаб сохраню всё так как есть - с комментариями, потом - удалю ЛИШНИЕ КОМЕНТЫ И ЕЩЁ РАЗ СОХРАНЮ -- а потом - то, что уже останется опять Закомментирую --- и буду Дальше - смотреть видео с Димычем......
+// 9/12/23
+// Дорабатываю урок Димыча (№6) с помощью ДжиПиТи
+// (сегодня делаю Модальные Окна и для этого пишу К. и меняю файлы index_6.html, main_6js и создаю Новый Файл - style_6.css и Начинаю в нём Работать)
 //   ------------------------
 //   -------------------------------
 
@@ -131,3 +134,10 @@ function finalMessage() {
 
 // I launch the final message function
 finalMessage();
+
+function openModal() {
+  document.getElementById('modal').style.display = 'block';
+}
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+}
