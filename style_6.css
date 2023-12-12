@@ -1,8 +1,25 @@
 /* 9/12/23
 Дорабатываю урок Димыча (№6) с помощью ДжиПиТи
 (сегодня делаю Модальные Окна и для этого пишу К. и меняю файлы index_6.html, main_6js и создаю Новый Файл - style_6.css и Начинаю в нём Работать) */
-
+/* 12/12/23
+Продолжаю Полностью Копипастить К., который дал мне ДжиПиТи. ---- Заканчиваю в style_6css */
 
 
 
 /* Define your styles here */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+    font-weight: bold;
+}
